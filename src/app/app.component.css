@@ -1,0 +1,87 @@
+.ag-theme-alpine {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  margin: 5px;
+  padding: 8px;
+  border: none;
+  background-color: #158EF1;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Form Styling */
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two-column layout */
+  gap: 10px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Input Field Styling */
+form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+  transition: 0.3s;
+}
+
+form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styling */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button:not([type="submit"]) {
+  background-color: #6c757d;
+  color: white;
+  margin-top: 10px;
+}
+
+button:not([type="submit"]):hover {
+  background-color: #5a6268;
+}
+
+/* Centering the Table */
+.ag-theme-alpine {
+  max-width: 1024px;
+  margin: 20px auto;
+}
